@@ -1,0 +1,25 @@
+.slider-container div{
+width: 100%;
+height: 100vh;
+border-radius: 0px 0px 0px 0px;
+margin-bottom: 2%;
+
+
+}
+
+.image{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  }
+
+  
+@media only screen 
+and (max-width : 1068px){
+    
+        
+        .slider-container{
+  margin-bottom: 5%;
+          }
+}

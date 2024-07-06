@@ -1,0 +1,14 @@
+.products{
+    display: flex;
+    width: 80%;
+    height: 100%;
+    padding: 20px;
+    margin-left: 10%;
+    gap: 20%;
+    flex-wrap: wrap; 
+}
+@media only screen and (max-width : 768px) {
+    .products{
+        justify-content: center;
+    }
+}
